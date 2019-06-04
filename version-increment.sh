@@ -6,9 +6,7 @@ if ! git diff-index --quiet HEAD --; then
   exit
 fi
 
-cd library
 npm --no-git-tag-version version patch -m \"Publish %s\"
-cd ..
 
 git add .
 git commit -m "xxxx"
