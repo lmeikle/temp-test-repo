@@ -6,7 +6,7 @@ if ! git diff-index --quiet HEAD --; then
   exit
 fi
 
-npm --no-git-tag-version version patch -m \"Publish %s\"
+npm --no-git-tag-version version patch
 
 git add .
 git commit -m "xxxx"
