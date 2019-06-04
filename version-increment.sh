@@ -11,5 +11,5 @@ npm --no-git-tag-version version patch
 CURRENT_VERSION=$(npm run version --silent)
 
 git add .
-git commit -m "Publish " + $CURRENT_VERSION
+git commit -m "Publish $CURRENT_VERSION"
 git push
