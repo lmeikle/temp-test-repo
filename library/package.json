@@ -5,8 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pub": "bash ../version-increment.sh && npm publish"
+    "pub": "bash ../version-increment.sh && npm publish",
+    "version": "cross-var echo $npm_package_version"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cross-var": "^1.1.0"
+  }
 }
