@@ -1,6 +1,6 @@
 {
   "name": "temp-test-repo-library",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "whatever",
   "main": "index.js",
   "scripts": {
