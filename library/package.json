@@ -1,10 +1,11 @@
 {
   "name": "temp-test-repo-library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "whatever",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pub": "bash ../version-increment.sh && npm publish"
   },
   "author": "",
   "license": "ISC"
